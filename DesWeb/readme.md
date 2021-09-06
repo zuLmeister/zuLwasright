@@ -10,4 +10,4 @@ NAMA ANGGOTA:
   Nindia Rifka Sugiharti Putri - 11191058
   Zulfikar Ahmad Komari - 11191076
 
-Be Yourself and Never Surrender.
+Be Yourself and Never Surrender!
