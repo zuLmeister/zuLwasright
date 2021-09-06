@@ -1,5 +1,5 @@
 KELOMPOK 10 DESAIN WEB "SHORT HAIR SUPREMACY"
-NAMA :
+NAMA ANGGOTA:
   Aji Zulfan Muqorrobin 11191005
   Glen Zacharias 11191026
   Ibnu Yudha Raul Pratama Yunaz 11191028
