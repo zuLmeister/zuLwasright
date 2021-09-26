@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equip="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- css -->
+  <link rel="stylesheet" href="docs.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class "navbar">
+        <h1 class="logo"> Groentenn </h1>
+        <ul class="nav-links">
+            <li class="aktif"><a href ="#"> </a> Home </li>
+            <li><a href ="#"> </a> About </li>
+            <li class="ctn"><a href ="Logreg.html"> </a> Login </li>
+        </ul>
+        <img src="images/img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <!-- Akhiran Navbar -->
+    <header>
+        <div class="header-content">
+            <h2>"Together, we determine the future we dream of."</h2>
+            <div class="line"></div>
+            <h1>GROENTENN</h1>
+            <a href="Logreg.html" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!-- JavaScript -->
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()= {
+            navlinks.classlist.toggle('mobile-menu')
+        })
+   </script>
+  </body>
+</html>
+    
