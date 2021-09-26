@@ -1,95 +1,98 @@
-* {
-  font-family: 'Signika Negative', sans-serif;
-}
-
-span {
-  font-weight: bold;
-  color: #0d6efd;
-}
-
-p {
-  font-weight: 200;
-  font-size: 1.2rem;
-}
-q {
-  font-family: 'Satisfy', cursive;
-  font-weight: 200;
-}
-a {
-  text-decoration: none;
-  color: #ededed;
-}
-
-section {
-  padding-top: 5rem;
-}
-
-h1,
-h2,
-h4 {
-  font-family: 'Fredoka One', cursive;
-}
-.hover h1 {
-  color: #F487B6 !important;
-}
-
-.hover h1:hover {
-  animation: myAnim 0.5s ease 0s 1 normal forwards;
-}
-
-@keyframes myAnim {
-  0% {
-    transform: scale3d(1, 1, 1);
+  * {
+    font-family: 'Signika Negative', sans-serif;
   }
 
-  30% {
-    transform: scale3d(0.75, 1.25, 1);
+  span {
+    font-weight: bold;
+    color: #0d6efd;
   }
 
-  40% {
-    transform: scale3d(1.25, 0.75, 1);
+  p {
+    font-weight: 200;
+    font-size: 1.2rem;
+  }
+  q {
+    font-family: 'Satisfy', cursive;
+    font-weight: 200;
+  }
+  a {
+    text-decoration: none;
+    color: #ededed;
   }
 
-  50% {
-    transform: scale3d(0.85, 1.15, 1);
+  section {
+    padding-top: 5rem;
   }
 
-  65% {
-    transform: scale3d(1.05, 0.95, 1);
+  h1,
+  h2,
+  h4 {
+    font-family: 'Fredoka One', cursive;
+  }
+  .hover h1 {
+    color: #F487B6 !important;
   }
 
-  75% {
-    transform: scale3d(0.95, 1.05, 1);
+  .hover h1:hover {
+    animation: myAnim 0.5s ease 0s 1 normal forwards;
   }
 
-  100% {
-    transform: scale3d(1, 1, 1);
+  @keyframes myAnim {
+    0% {
+      transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+      transform: scale3d(0.75, 1.25, 1);
+    }
+
+    40% {
+      transform: scale3d(1.25, 0.75, 1);
+    }
+
+    50% {
+      transform: scale3d(0.85, 1.15, 1);
+    }
+
+    65% {
+      transform: scale3d(1.05, 0.95, 1);
+    }
+
+    75% {
+      transform: scale3d(0.95, 1.05, 1);
+    }
+
+    100% {
+      transform: scale3d(1, 1, 1);
+    }
   }
-}
 
-/* Scrollbar */
-::-webkit-scrollbar {
-  width: 1rem;
-}
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 1rem;
+  }
 
-::-webkit-scrollbar-track {
-  border-radius: 10px;
-}
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
 
-::-webkit-scrollbar-thumb {
-  background: #F487B6;
-  border-radius: 10px;
-}
+  ::-webkit-scrollbar-thumb {
+    background: #F487B6;
+    border-radius: 10px;
+  }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #F487B6;
-}
+  ::-webkit-scrollbar-thumb:hover {
+    background: #F487B6;
+  }
+  /* 
 
-/* Bagian Header */
+    HEADER
+
+  */
 
 .navbar{
-    position:relative;
-    z-index: 1;
+  position:relative;
+  z-index: 1;
 }
 
 .nav-link:hover::after {
@@ -100,14 +103,14 @@ h4 {
   margin: auto;
   padding-bottom: 5px;
   margin-bottom: -8px;
-    
+}
 /* Utiltiies */
 .tombol{
-    border-radius: 40px;
-    background-color: #053C5E;
-    text-transform: uppercase;
+  border-radius: 40px;
+  background-color: #053C5E;
+  text-transform: uppercase;
 }
-    
+
 /*jumbotron */
 .jumbotron{
   background-image: url(manfaat.jpg);
@@ -165,7 +168,7 @@ h4 {
   color: #F487B6;
 }
 
-/* ABOUT Us */
+/* ABOUT ME */
 
 #aboutUs {
   background-color: #377771;
@@ -188,23 +191,48 @@ h4 {
   padding-bottom: 5rem;
 }
 
-/* Bagian Documentation */
 
-#projects a {
+
+
+
+/* 
+DOCUMENTATION
+*/
+
+.content-col {
+  width : 40%;
+}
+
+.image-col {
+  width: 60%;
+}
+#documentation .image-gallery{
+  display :flex;
+  flex-wrap : wrap;
+}
+
+.image-gallery img{
+  width : 300px;
+
+}
+#documentation a {
   border: 5px;
   background-color: #185adb;
   transition: 0.5s;
 }
 
-#projects a:hover {
+#documentation a:hover {
   box-shadow: 1px 1px 5px grey;
 }
 
-#projects .container {
+#documentation .container {
   padding-bottom: 8rem;
 }
 
-/* Bagian Footer */
+
+/* 
+Footer
+*/
 
 #footer {
   background-color: #000000;
@@ -216,7 +244,7 @@ h4 {
 }
 
 #footer h4 {
-  color: #185adb;
+  color: #ffc947;
 }
 
 #footer img {
