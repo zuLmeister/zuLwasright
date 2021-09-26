@@ -26,6 +26,16 @@ a{
     height:400px;
     background-color: rgba(30,30,30, 0.9);
 }
+
+.login-reg-panel h2{
+    color: #F9CB40;
+}
+
+#label-register {
+    background-color : #F9CB40 ;
+    color: #000000;
+    border-radius: 30px;
+}
 .white-panel{
     background-color: #377771;
     height:500px;
@@ -47,11 +57,14 @@ a{
 .login-reg-panel #label-login, 
 .login-reg-panel #label-register{
     border:1px solid #9E9E9E;
+    background-color: #F9CB40;
+    color :#000000;
+    text : uppercase;
     padding:0 5px;
     width:150px;
     display:block;
     text-align:center;
-    border-radius:3px;
+    border-radius:2px;
     cursor:pointer;
 }
 .login-info-box{
@@ -61,6 +74,7 @@ a{
     left:0;
     position:absolute;
     text-align:left;
+    transition: 0,8s;
 }
 .register-info-box{
     width:30%;
@@ -71,6 +85,10 @@ a{
     text-align:left;
     
 }
+
+
+
+
 .right-log{right:50px !important;}
 
 .login-show, 
@@ -111,6 +129,14 @@ a{
 .login-show a{
     display:inline-block;
     padding:10px 0;
+    color : #F9CB40;
+}
+.login-show h2{
+    color : #F9CB40 ;
+}
+
+.login-show a:hover{
+    color : blue;
 }
 
 .register-show input[type="text"], .register-show input[type="password"]{
