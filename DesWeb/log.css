@@ -48,12 +48,11 @@ a{
     border-radius: 25px;
 }
 .login-reg-panel input[type="radio"]{
-    position:relative;
-    display:none;
+    position: relative;
+    display: none;
 }
-.login-reg-panel{
-    color:#B8B8B8;
-}
+
+
 .login-reg-panel #label-login, 
 .login-reg-panel #label-register{
     border:1px solid #9E9E9E;
