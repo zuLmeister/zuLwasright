@@ -55,7 +55,7 @@ a{
 
 .login-reg-panel #label-login, 
 .login-reg-panel #label-register{
-    border:1px solid #9E9E9E;
+    border: 1px solid #9E9E9E;
     background-color: #F9CB40;
     color :#000000;
     text : uppercase;
