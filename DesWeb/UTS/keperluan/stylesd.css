@@ -46,7 +46,7 @@ span {
   }
 }
 
-/*========== BASE ==========*/
+/*/????/*/
 *,
 ::before,
 ::after {
@@ -57,7 +57,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/*========== Variables Dark theme ==========*/
+/*Variabel Dark theme*/
 body.dark-theme {
   --title-color: #f1f3f2;
   --text-color: #c7d1cc;
@@ -65,7 +65,7 @@ body.dark-theme {
   --container-color: #27302c;
 }
 
-/*========== Button Dark/Light ==========*/
+/*Tiombol buat dark light mode*/
 .change-theme {
   position: absolute;
   right: 1rem;
@@ -394,7 +394,7 @@ img {
   margin-top: 3.5rem;
 }
 
-/*========== MEDIA QUERIES ==========*/
+/*Screen and stuff*/
 @media screen and (min-width: 576px) {
   .hcontainer,
   .about__container {
