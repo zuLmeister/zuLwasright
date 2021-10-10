@@ -1,0 +1,251 @@
+:root{
+    --primary-color : #E63946;
+    --background-color : #FFFFFF;
+    --btn-color : #A8DADC;
+}
+
+* {
+    font-family :'Damion', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+body,html {
+    background-color: var(--background-color);
+    scroll-behavior: smooth;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: var(--background-color);
+    box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
+}
+
+.menu-wrap{
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    font-size : 32px;
+    font-weight: 600;
+    color: var(--primary-color);
+    font-family :'Damion', cursive;
+}
+
+.menu {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-item {
+    margin-left: 1rem;
+    padding : .5rem 1.5rem;
+    font-weight: 600;
+    color: #000000;
+    transition: .10s ease-in-out;
+    cursor: pointer;
+}
+
+.menu-item:hover, .menu-item.active{
+    color: black;
+    background-color: var(--btn-color);
+    border-radius: 1rem;
+}
+
+.cart-btn {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 2rem;
+    cursor: pointer;
+    transition: .10s ease-in-out;
+}
+
+.cart-btn:hover{
+    background-color: var(--btn-color);
+    color: black;
+    border-radius : 1rem;
+}
+
+.fullheight{
+    height: 100vh;
+}
+
+.align-items.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-img-fixed{
+    background-attachment: fixed;
+}
+
+.container{
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+section{
+    padding: 9 rem 0;
+}
+
+/* GRID SYSTEM */
+
+@media only screen and (max-width:600px) {
+    .col-xs-1 {
+        width: 8.33%;
+    }
+    .col-xs-2 {
+        width: 16.66%;
+    }
+    .col-xs-3 {
+        width: 25%;
+    }
+    .col-xs-4 {
+        width: 33.33%;
+    }
+    .col-xs-5 {
+        width: 41.66%;
+    }
+    .col-xs-6 {
+        width: 50%;
+    }
+    .col-xs-7{
+        width: 58.33%;
+    }
+    .col-xs-8{
+        width: 66.66%;
+    }
+    .col-xs-9{
+        width: 75%;
+    }
+    .col-xs-10{
+        width: 83.33%;
+    }
+    .col-xs-11 {
+        width: 91.66%;
+    }
+    .col-xs-12 {
+        width: 100%;
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+[class*="col-"]{
+    padding: 1rem;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+
+
+.slogan {
+    padding-left: 74px;
+    padding-top: 50px;
+}
+
+.slogan h1 {
+    font-size: 90px;
+    line-height: 124px;
+    font-weight: 400;
+    font-style: normal;
+    font-family :'Damion', cursive;
+    left: 129px;
+    top: calc(50% - 129.21px/2 - 42.39px);
+    color: var(--primary-color)
+}
+
+.slogan p{
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: 'Patrick Hand', cursive;
+}
+.slogan button{
+    padding: 1rem 5rem;
+    outline: none;
+    border: none;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+    border: .125rem solid #E63946;
+    border-radius: 26px;
+    color: #E63946;
+    margin: 3rem 0;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .10s ease-in-out;
+}
+
+.slogan button:hover{
+    background-color: #A8DADC;
+}
