@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="log.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <style></style>
+  </head>
+  <body>
+    <div class="login-reg-panel">
+      <div class="login-info-box">
+        <h2>Sudah Punya Akun ?</h2>
+        <label id="label-register" for="log-reg-show">Login</label>
+        <input type="radio" name="active-log-panel" id="log-reg-show" checked="checked" />
+      </div>
+
+      <div class="register-info-box">
+        <h2>Tidak Punya Akun ?</h2>
+        <label id="label-login" for="log-login-show">Register</label>
+        <input type="radio" name="active-log-panel" id="log-login-show" />
+      </div>
+
+      <div class="white-panel">
+        <div class="login-show">
+          <h2>LOGIN</h2>
+          <input type="text" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <input type="button" value="Login" />
+          <a href="">Forgot password?</a>
+        </div>
+        <div class="register-show">
+          <h2>REGISTER</h2>
+          <input type="text" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <input type="password" placeholder="Confirm Password" />
+          <input type="button" value="Register" />
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="logreg.js"></script>
+    <!-- Akhir JavaScript-->
+  </body>
+</html>
