@@ -1,0 +1,97 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kedai GF</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="Menu(1).css" />
+  </head>
+  <body>
+    <!-- header section starts      -->
+
+    <header>
+      <a href="#" class="logo"><i class="fas fa-utensils"></i>kedai.</a>
+
+      <nav class="navbar">
+        <a class="active" href="IPPL.html">home</a>
+        <a class="active" href="IPPL.html#dishes">dishes</a>
+        <a class="active" href="IPPL.html#about">about</a>
+        <a class="active" href="dis.html" target="_blank">menu</a>
+        <a class="active" href="logen.html" target="_blank">login</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="order.html" class="fas fa-shopping-cart" target="_blank"></a>
+      </div>
+    </header>
+
+    <!-- header section ends-->
+    <!-- order section stars-->
+    <section class="order" id="order">
+      <h3 class="sub-heading">pesan sekarang</h3>
+      <h1 class="heading">free and fast</h1>
+
+      <form action="">
+        <div class="inputBox">
+          <div class="input">
+            <span>nama kamu</span>
+            <input type="text" placeholder="masukan nama kamu" />
+          </div>
+          <div class="input">
+            <span>nomor meja</span>
+            <input type="number" placeholder="masukan nomor meja kamu" />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>snack pesanan kamu</span>
+            <input type="text" placeholder="masukan nama makanan pesanan kamu" />
+          </div>
+          <div class="input">
+            <span>toping tambahan snack </span>
+            <input type="test" placeholder="masukan toping tambahan untuk snack " />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>Minuman pesanan kamu</span>
+            <input type="text" placeholder="masukan nama minuman pesanan kamu" />
+          </div>
+          <div class="input">
+            <span>toping tambahan minuman</span>
+            <input type="test" placeholder="masukan toping tambahan untuk minuman " />
+          </div>
+          <div class="input">
+            <span>makanan pesananan kamu</span>
+            <input type="test" placeholder="masukan toping tambahan untuk minuman " />
+          </div>
+          <div class="input">
+            <span>date and time</span>
+            <input type="datetime-local" />
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>Catatan</span>
+            <textarea name="" placeholder="enter your message" id="" cols="50" rows="30"></textarea>
+          </div>
+        </div>
+
+        <input type="submit" value="order now" class="btn" />
+      </form>
+    </section>
+
+    <!-- order section ends -->
+  </body>
+</html>
