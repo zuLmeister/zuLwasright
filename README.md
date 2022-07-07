@@ -1,5 +1,5 @@
-# zuLwasright
-Holla fellas! My name is Zulfikar u can call me ZuL
+# ur sleepy boy zuLwasright
+Holla ese! My name is Zulfikar Ahmad, my friend often call me zul
 
 
 Currently i'm a college student at Kalimantan Institute of Technology
