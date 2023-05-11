@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styleindex.css">
+		<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <title>E-Groceries</title>
+    </head>    
+<body>
+	<header>
+		<div class="container">
+			<div class="logo">
+				<h1>moqups</h1>
+			  </div>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Our Packages</a></li>
+					<li><a href="#">Get Us</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section class="word">
+			<div class="kata">
+				<h2>Top rated E-Groceries Shop in Indonesian</h2>
+				<p>Everyday with best ingredients</p>
+			</div>
+		</section>
+		<section class="packages">
+			<div class="package">
+				<div class="slideshow-container">
+				  <img class="mySlides" src="images/1.png" alt="Package 1">
+				  <img class="mySlides" src="images/2.png" alt="Package 2">
+				  <img class="mySlides" src="images/3.png" alt="Package 2">
+				  <img class="mySlides" src="images/4.png" alt="Package 2">
+				  <div class="textB">"Setiap hari beli sayur buah yang fresh disini."</div>
+				  <div class="mini-photos">
+					<div class="photo-container">
+					  <img src="profile.png" alt="Photo 1">
+					  <div class="photo-info">
+						<p class="photo-name">Florence Hughes</p>
+						<p class="photo-subname">Ibu Rumah Tangga, 28</p>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>			  
+		<section class="form">
+				<h2>Contact Us</h2>
+				<p>Sales akan menghubungi anda 1x24 jam setelah data kami terima</p>
+				<form name="contactForm" method="POST" action="#" onsubmit="return validateForm()">
+					<label for="name">Your Name: </label>
+					<input type="text" name="name" placeholder="First and last name">
+					<label for="email">Email Address: </label>
+					<input type="email" name="email" placeholder="example@email.com">
+					<label for="subject">What are you intreseted in?</label>
+					<select name="subject" id="subject">
+					  <option value="Option 1">Select Option</option>
+					  <option value="Option 2">Option 1</option>
+					  <option value="Option 3">Option 2</option>
+					</select>
+					<input type="submit" value="Send">
+				  </form>				  
+		</section>
+		<div class="calls">
+			<section class="call">
+				<h2>Having a question?</h2>
+			<p>We're here to answer any questions you have. Fill out the form below and we'll get back to you as soon as possible.</p>
+			
+			<form>
+
+			  
+			  <label for="message">Message</label>
+			  <textarea id="message" name="message" required></textarea>
+			  
+			  <button type="submit">Send Message</button>
+			</form>
+			  </section>
+		</div>
+	</main>
+	<footer></footer>
+	<script src="script.js"></script>
+</body>
+</html>
